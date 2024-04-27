@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424237892BDC24C800215ECE /* patient_signUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424237882BDC24C800215ECE /* patient_signUpVC.swift */; };
+		4242378D2BDC504100215ECE /* String+trimning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4242378C2BDC504100215ECE /* String+trimning.swift */; };
+		4242378F2BDC50C700215ECE /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4242378E2BDC50C700215ECE /* ValidationManager.swift */; };
+		424237912BDC5A1900215ECE /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424237902BDC5A1900215ECE /* Doctor.swift */; };
+		424237932BDC5CCB00215ECE /* UserdefualtManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424237922BDC5CCB00215ECE /* UserdefualtManager.swift */; };
+		424237952BDC628E00215ECE /* UIViewControler+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424237942BDC628E00215ECE /* UIViewControler+Alert.swift */; };
+		424F221D2BD9B75300154AF6 /* Patient_LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424F221C2BD9B75300154AF6 /* Patient_LoginVC.swift */; };
+		424F221F2BD9C0F700154AF6 /* medical_loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424F221E2BD9C0F700154AF6 /* medical_loginVC.swift */; };
+		424F22232BD9C4B600154AF6 /* medical_signUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424F22222BD9C4B600154AF6 /* medical_signUpVC.swift */; };
+		427C98272BDD2DF400939933 /* TransformVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427C98262BDD2DF400939933 /* TransformVC.swift */; };
 		428497E02BD9AC6300E18E9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428497DF2BD9AC6300E18E9D /* AppDelegate.swift */; };
 		428497E22BD9AC6300E18E9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428497E12BD9AC6300E18E9D /* SceneDelegate.swift */; };
 		428497E42BD9AC6300E18E9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428497E32BD9AC6300E18E9D /* ViewController.swift */; };
@@ -16,6 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		424237882BDC24C800215ECE /* patient_signUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patient_signUpVC.swift; sourceTree = "<group>"; };
+		4242378C2BDC504100215ECE /* String+trimning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+trimning.swift"; sourceTree = "<group>"; };
+		4242378E2BDC50C700215ECE /* ValidationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
+		424237902BDC5A1900215ECE /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		424237922BDC5CCB00215ECE /* UserdefualtManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserdefualtManager.swift; sourceTree = "<group>"; };
+		424237942BDC628E00215ECE /* UIViewControler+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControler+Alert.swift"; sourceTree = "<group>"; };
+		424F221C2BD9B75300154AF6 /* Patient_LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient_LoginVC.swift; sourceTree = "<group>"; };
+		424F221E2BD9C0F700154AF6 /* medical_loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medical_loginVC.swift; sourceTree = "<group>"; };
+		424F22222BD9C4B600154AF6 /* medical_signUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medical_signUpVC.swift; sourceTree = "<group>"; };
+		427C98262BDD2DF400939933 /* TransformVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformVC.swift; sourceTree = "<group>"; };
 		428497DC2BD9AC6300E18E9D /* docLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = docLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		428497DF2BD9AC6300E18E9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		428497E12BD9AC6300E18E9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,9 +80,19 @@
 				428497E12BD9AC6300E18E9D /* SceneDelegate.swift */,
 				428497E32BD9AC6300E18E9D /* ViewController.swift */,
 				428497E52BD9AC6300E18E9D /* Main.storyboard */,
+				424F221C2BD9B75300154AF6 /* Patient_LoginVC.swift */,
+				424237882BDC24C800215ECE /* patient_signUpVC.swift */,
+				424F221E2BD9C0F700154AF6 /* medical_loginVC.swift */,
+				424F22222BD9C4B600154AF6 /* medical_signUpVC.swift */,
+				427C98262BDD2DF400939933 /* TransformVC.swift */,
 				428497E82BD9AC6400E18E9D /* Assets.xcassets */,
 				428497EA2BD9AC6400E18E9D /* LaunchScreen.storyboard */,
 				428497ED2BD9AC6400E18E9D /* Info.plist */,
+				4242378E2BDC50C700215ECE /* ValidationManager.swift */,
+				424237902BDC5A1900215ECE /* Doctor.swift */,
+				4242378C2BDC504100215ECE /* String+trimning.swift */,
+				424237922BDC5CCB00215ECE /* UserdefualtManager.swift */,
+				424237942BDC628E00215ECE /* UIViewControler+Alert.swift */,
 			);
 			path = docLink;
 			sourceTree = "<group>";
@@ -111,6 +141,9 @@
 				Base,
 			);
 			mainGroup = 428497D32BD9AC6300E18E9D;
+			packageReferences = (
+				424F22242BDACB4E00154AF6 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
 			productRefGroup = 428497DD2BD9AC6300E18E9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +171,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424237892BDC24C800215ECE /* patient_signUpVC.swift in Sources */,
 				428497E42BD9AC6300E18E9D /* ViewController.swift in Sources */,
+				424237952BDC628E00215ECE /* UIViewControler+Alert.swift in Sources */,
+				4242378D2BDC504100215ECE /* String+trimning.swift in Sources */,
+				4242378F2BDC50C700215ECE /* ValidationManager.swift in Sources */,
 				428497E02BD9AC6300E18E9D /* AppDelegate.swift in Sources */,
+				424237932BDC5CCB00215ECE /* UserdefualtManager.swift in Sources */,
+				427C98272BDD2DF400939933 /* TransformVC.swift in Sources */,
+				424F221D2BD9B75300154AF6 /* Patient_LoginVC.swift in Sources */,
+				424237912BDC5A1900215ECE /* Doctor.swift in Sources */,
+				424F221F2BD9C0F700154AF6 /* medical_loginVC.swift in Sources */,
 				428497E22BD9AC6300E18E9D /* SceneDelegate.swift in Sources */,
+				424F22232BD9C4B600154AF6 /* medical_signUpVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +399,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		424F22242BDACB4E00154AF6 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 428497D42BD9AC6300E18E9D /* Project object */;
 }
